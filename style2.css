@@ -16,6 +16,10 @@ body {
 
 }
 
+.own-spacing{
+  padding-top: 3vh;
+}
+
 #table {
     display: table;
     padding: 5px;
