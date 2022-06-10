@@ -1,4 +1,4 @@
-article {
+aarticle {
   background: linear-gradient(
     to right, 
     hsl(98 100% 62%), 
@@ -9,6 +9,10 @@ article {
   text-align: center;
 }
 
+.white{
+  color: white;
+}
+
 body {
   background-image: url(./images/background6.jpg);
   background-size: cover;
@@ -17,7 +21,7 @@ body {
 }
 
 .own-spacing{
-  padding-top: 5vh;
+  padding-top: 28vh;
 }
 
 #table {
@@ -188,9 +192,9 @@ a.website{
   height:10px;
   width:90%;
   opacity:0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
-  /* W3C */
+  /* background: -webkit-radial-gradient(center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+  background: radial-gradient(center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+  W3C */
   transition-duration: 0.3s;
   transition-property: transform, opacity;
 }
@@ -249,11 +253,13 @@ a.website{
 
 
 
+
 body {
   background-color: rgba(0,0,0,1);
   font-weight:600;
   /*text-align:center !important;*/
   color: white;
+  font-family: helvetica, sans-serif;
 }
 
 nav {
@@ -272,11 +278,11 @@ nav {
   opacity: .75 !important;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .navbar{
     text-align: center !important;
     float: none;
-    display: inline-block;
+    display: inline-block !important;
   }
 }
 @media (max-width: 768px){
