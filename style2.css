@@ -92,7 +92,7 @@ p.first-slide {
   padding-left: 5px;
   font-size: 3vw;
   text-align: left
-  transition: margin-left 2s;
+  transition: margin-left 10s;
 }
 
 
