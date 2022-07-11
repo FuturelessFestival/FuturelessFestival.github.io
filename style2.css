@@ -82,6 +82,7 @@ h1.big {
   text-align: left;
   margin-top: 5vh;
   font-weight: 700;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 p.first-slide {
