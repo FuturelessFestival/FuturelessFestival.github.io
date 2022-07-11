@@ -8,6 +8,14 @@ aarticle {
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 
 .white{
   color: white;
@@ -77,6 +85,7 @@ h1.big {
 }
 
 p.first-slide {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
   padding-top: 5px;
   width: 25vw;
   line-height: 0.9;
@@ -91,8 +100,7 @@ p.first-slide {
   position: right;
   padding-left: 5px;
   font-size: 3vw;
-  text-align: left
-  transition: margin-left 10s;
+  text-align: left;
 }
 
 
