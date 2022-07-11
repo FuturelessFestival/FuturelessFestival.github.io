@@ -75,6 +75,27 @@ h1.big {
   margin-top: 5vh;
   font-weight: 700;
 }
+
+p.first-slide {
+  padding-top: 5px;
+  width: 25vw;
+  line-height: 0.9;
+  background: linear-gradient(
+    to left, 
+    hsl(230 40% 49%), /* 200 100% 62% */
+    hsl(300 0% 52%)  /* 360 100% 59% */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: helvetica, sans-serif;
+  position: right;
+  padding-left: 5px;
+  font-size: 3vw;
+  text-align: left
+  transition: margin-left 2s;
+}
+
+
 p.first {
   padding-top: 5px;
   width: 25vw;
