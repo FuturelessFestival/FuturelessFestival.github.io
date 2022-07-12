@@ -22,10 +22,9 @@ aarticle {
 }
 
 body {
-  background-color: white;
-  
- 
-
+  background-image: url(./images/background7.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .own-spacing{
