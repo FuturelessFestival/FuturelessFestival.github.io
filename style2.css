@@ -449,7 +449,6 @@ nav {
     /*animation: 1s ease-out 2s 1 slideInFromLeft;*/
     }
     .rowOwn {
-    display: flex;
     width:  50vw;
     }
 }
