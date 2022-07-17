@@ -443,6 +443,7 @@ nav {
 }
 .row {
   display: flex;
+  width:  50vw;
 }
 
 .column {
