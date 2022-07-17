@@ -425,7 +425,7 @@ nav {
    }
   p.schedule {
     visibility: hidden;
-    width: 60vw;
+    width: 50vw;
     background: linear-gradient(
       to right, 
       hsl(200 40% 67%), /* 200 100% 62% */
