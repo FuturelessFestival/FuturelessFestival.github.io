@@ -34,7 +34,6 @@ function fade(element) {
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op -= op * 0.1;
     }, 50);
-  return op;
 }
 function unfade(element) {
     //var op = 0.1;  // initial opacity
@@ -47,5 +46,4 @@ function unfade(element) {
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op += op * 0.1;
     }, 50);
-    return op;
 }
