@@ -432,7 +432,7 @@ nav {
     max-height: 100%; 
    }
   p.schedule {
-    visibility: hidden;
+    visibility: visible;
     width: 50vw;
     background: linear-gradient(
       to right, 
