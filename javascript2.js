@@ -14,6 +14,7 @@ function myFunction() {
   console.log(op);
   var elem = document.getElementById('fadeInOut');
   test = fade(elem);
+  console.log(op);
   if(point < texts.length - 1){
     point ++;
   }else{
