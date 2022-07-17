@@ -1,5 +1,5 @@
 var point = 0;
-var test = 0;
+var op = 1;
 var texts = new Array();
 texts.push("10/08: Candyland, 17:00");
 texts.push("11/08: Färgfabriken, 17:00");
@@ -11,18 +11,19 @@ var intervalId = window.setInterval(function(){
 
 
 function myFunction() {
+  console.log(op);
   var elem = document.getElementById('fadeInOut');
-  test = fade(elem, test);
+  test = fade(elem);
   if(point < texts.length - 1){
     point ++;
   }else{
     point = 0;
   }
   elem.innerHTML = texts[point];
-  test = unfade(elem, test);
+  test = unfade(elem);
 }
 
-function fade(element, op) {
+function fade(element) {
     //var op = 1;  // initial opacity
     var timer = setInterval(function () {
         if (op <= 0.1){
@@ -35,7 +36,7 @@ function fade(element, op) {
     }, 50);
   return op;
 }
-function unfade(element, op) {
+function unfade(element) {
     //var op = 0.1;  // initial opacity
     element.style.display = 'block';
     var timer = setInterval(function () {
