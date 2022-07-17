@@ -173,12 +173,12 @@ p.schedule {
   animation: 1s ease-out 2s 1 slideInFromLeft;
 }
 
-#transform-1s {
+#transformer-1s {
   animation: hideAnimation 0s ease-in 1s;
   animation-fill-mode: forwards;
 }
 
-#transform-2s {
+#transformer-2s {
   animation: hideAnimation 0s ease-in 2s;
   animation-fill-mode: forwards;
 }
