@@ -425,7 +425,7 @@ nav {
    }
   p.schedule {
     visibility: hidden;
-    width: 40vw;
+    width: 60vw;
     background: linear-gradient(
       to right, 
       hsl(200 40% 67%), /* 200 100% 62% */
@@ -437,7 +437,7 @@ nav {
     position: left;
     font-size: 3.2vw;
     text-align: left;
-    padding-left: 20vw;
+    padding-left: 12vw;
     /*animation: 1s ease-out 2s 1 slideInFromLeft;*/
 }
 }
