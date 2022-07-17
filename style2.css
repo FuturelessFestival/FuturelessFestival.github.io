@@ -187,8 +187,6 @@ p.schedule {
 @keyframes hideAnimation {
   to {
     visibility: visible;
-    width: 0;
-    height: 0;
   }
 }
 
