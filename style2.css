@@ -23,6 +23,10 @@ aarticle {
   color: white;
 }
 
+.image-size {
+  width:10vw;
+}
+
 body {
   background-image: url(./images/background6.jpg);
   background-size: cover;
@@ -448,8 +452,11 @@ nav {
     padding-left: 12vw;
     /*animation: 1s ease-out 2s 1 slideInFromLeft;*/
     }
-    .rowOwn {
+  .rowOwn {
     width:  50vw;
-    }
+  }
+  .image-size {
+    width:20vw;
+  }
 }
 
