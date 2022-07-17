@@ -88,6 +88,7 @@ h1.big {
 }
 
 p.first-slide {
+  visibility: hidden;
   padding-top: 5px;
   width: 25vw;
   line-height: 0.9;
