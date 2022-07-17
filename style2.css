@@ -11,9 +11,11 @@ aarticle {
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(200%);
+    opacity: 0;
   }
   100% {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -154,6 +156,7 @@ p.third {
   padding-left: 5px;
 }
 p.schedule {
+  visibility: hidden;
   width: 30vw;
   background: linear-gradient(
     to right, 
@@ -168,6 +171,24 @@ p.schedule {
   text-align: left;
   padding-left: 7vw;
   animation: 1s ease-out 2s 1 slideInFromLeft;
+}
+
+#transform-1s {
+  animation: hideAnimation 0s ease-in 1s;
+  animation-fill-mode: forwards;
+}
+
+#transform-2s {
+  animation: hideAnimation 0s ease-in 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hideAnimation {
+  to {
+    visibility: visible;
+    width: 0;
+    height: 0;
+  }
 }
 
 img {
