@@ -441,3 +441,11 @@ nav {
     /*animation: 1s ease-out 2s 1 slideInFromLeft;*/
 }
 }
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
