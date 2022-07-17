@@ -237,7 +237,15 @@ a.website{
     margin-right: 20px;
 } 
 
+.rowOwn {
+  display: flex;
+  width:  30vw;
+}
 
+.columnOwn {
+  flex: 50%;
+  padding: 5px;
+}
 
 
 .hoverable{
@@ -445,12 +453,4 @@ nav {
     width:  50vw;
     }
 }
-.rowOwn {
-  display: flex;
-  width:  30vw;
-}
 
-.columnOwn {
-  flex: 50%;
-  padding: 5px;
-}
