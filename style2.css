@@ -158,7 +158,7 @@ p.third {
   padding-top: 3vh;
 }
 p.schedule {
-  visibility: hidden;
+  visibility: Visible;
   width: 30vw;
   background: linear-gradient(
     to right, 
