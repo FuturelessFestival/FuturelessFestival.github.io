@@ -3,6 +3,7 @@
     overflow:hidden;
     position:relative;
     margin:0;
+    marginleft: 7vw;
 }
 .edge{
     left:0;
@@ -47,4 +48,27 @@ li.slider-mimer{
     -webkit-text-fill-color: transparent;
     font-family: helvetica, sans-serif;
     font-size: 1.1vw;
+}
+@media (max-width: 768px){
+    li.slider-mimer{
+        list-style:none;
+        display:inline-block;
+        padding:0 50px;
+        background: linear-gradient(
+          to right, 
+          hsl(200 40% 67%), /* 200 100% 62% */
+          hsl(360 100% 69%)  /* 360 100% 59% */
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: helvetica, sans-serif;
+        font-size: 3.2vw;
+    }
+    .slider{
+        width:50%;
+        overflow:hidden;
+        position:relative;
+        margin:0;
+        marginleft: 12vw;
+    }
 }
