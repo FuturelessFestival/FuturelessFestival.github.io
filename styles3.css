@@ -3,7 +3,7 @@
     overflow:hidden;
     position:relative;
     margin:0;
-    marginleft: 7vw;
+    margin-left: 7vw;
 }
 .edge{
     left:0;
@@ -69,6 +69,6 @@ li.slider-mimer{
         overflow:hidden;
         position:relative;
         margin:0;
-        marginleft: 12vw;
+        margin-left: 12vw;
     }
 }
