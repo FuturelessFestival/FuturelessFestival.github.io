@@ -53,7 +53,7 @@ li.slider-mimer{
     li.slider-mimer{
         list-style:none;
         display:inline-block;
-        padding:0 50px;
+        padding-right:50px;
         background: linear-gradient(
           to right, 
           hsl(200 40% 67%), /* 200 100% 62% */
