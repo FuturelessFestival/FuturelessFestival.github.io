@@ -1,5 +1,5 @@
 .slider{
-    width:100%;
+    width:50%;
     overflow:hidden;
     position:relative;
     margin:0;
@@ -30,7 +30,6 @@
     height:100%;
 }
 ul.slider-glider{
-    background:#ddd;
     overflow:hidden;
     width:1000%;
     margin:0;
@@ -39,4 +38,13 @@ li.slider-mimer{
     list-style:none;
     display:inline-block;
     padding:0 50px;
+    background: linear-gradient(
+      to right, 
+      hsl(200 40% 67%), /* 200 100% 62% */
+      hsl(360 100% 69%)  /* 360 100% 59% */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: helvetica, sans-serif;
+    font-size: 1.1vw;
 }
