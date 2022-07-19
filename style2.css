@@ -379,11 +379,11 @@ nav {
   img {
     width: 15vw; 
     max-height: 100%; 
-   }
+  }
   img.first {
     width: 41vw; 
     max-height: 100%; 
-   }
+  }
   p.schedule {
     visibility: visible;
     width: 50vw;
@@ -400,11 +400,9 @@ nav {
     text-align: left;
     padding-left: 12vw;
     /*animation: 1s ease-out 2s 1 slideInFromLeft;*/
-    }
-    .rowOwn {
+  }
   .rowOwn {
     width:  50vw;
-    }
   }
   .image-size {
     width:20vw;
