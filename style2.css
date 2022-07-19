@@ -180,7 +180,7 @@ p.schedule {
 }
 
 #transformer-1s {
-  animation: hideAnimation 0s ease-in 1s, 1s ease-out 1s 1 slideInFromLeft;
+  animation: hideAnimation 0s ease-in 10s, 1s ease-out 1s 1 slideInFromLeft;
   animation-fill-mode: forwards;
 }
 
