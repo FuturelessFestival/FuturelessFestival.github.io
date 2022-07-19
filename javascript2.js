@@ -7,7 +7,7 @@ texts.push("12-14/08: Blivande, (all day)");
 
 var intervalId = window.setInterval(function(){
   myFunction();
-}, 5000);
+}, 8000);
 
 
 function myFunction() {
