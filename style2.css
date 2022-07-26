@@ -11,6 +11,9 @@ aarticle {
 .padd-top {
   padding-top: 50px;
 }
+.padding-left {
+  padding-left: 144px;
+}
 
 @keyframes slideInFromLeft {
   0% {
