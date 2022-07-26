@@ -37,8 +37,8 @@ aarticle {
 body {
   background-image: url(./images/background6.jpg);
   background-size: cover;
-  background-position: center;
-  height: 100vh;
+  /*background-position: center;*/
+  /*height: 100vh;*/
 }
 .own-spacing{
   padding-top: 7vh;
