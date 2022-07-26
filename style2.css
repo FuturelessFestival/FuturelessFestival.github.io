@@ -8,6 +8,10 @@ aarticle {
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
+.padd-top {
+  padding-top: 50px;
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(200%);
@@ -18,6 +22,7 @@ aarticle {
     opacity: 1;
   }
 }
+
 .white{
   color: white;
 }
