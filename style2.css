@@ -68,9 +68,14 @@ aarticle {
    color:black;
    font-size:1rem;
    font-weight:600;
-   visibility: hidden;
+   display: none;
 }
-
+.artist-first {
+   color:black;
+   font-size:1rem;
+   font-weight:600;
+   display: inline-block;
+}
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(200%);
