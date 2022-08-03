@@ -23,7 +23,7 @@ aarticle {
 
 .button-59 {
     align-items: center;
-    color: aliceblue;
+    color: white;
     border-width: 0;
     cursor: pointer;
     display: inline-flex;
@@ -48,7 +48,7 @@ aarticle {
 }
 
 .button-59:focus {
-  color: #171e29;
+  color: white;
 }
 
 .button-59:hover {
