@@ -9,7 +9,7 @@ function artist1() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -24,7 +24,7 @@ function artist2() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -39,7 +39,7 @@ function artist3() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -54,7 +54,7 @@ function artist4() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -69,7 +69,7 @@ function artist5() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -84,7 +84,7 @@ function artist6() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -99,7 +99,7 @@ function artist7() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -114,7 +114,7 @@ function artist8() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -129,7 +129,7 @@ function artist9() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -144,7 +144,7 @@ function artist10() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -159,7 +159,7 @@ function artist11() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -174,7 +174,7 @@ function artist12() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -189,7 +189,7 @@ function artist13() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -204,7 +204,7 @@ function artist14() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -219,7 +219,7 @@ function artist15() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -234,7 +234,7 @@ function artist16() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
@@ -249,7 +249,7 @@ function artist17() {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btn.innerHTML = "Read less";
     moreText.style.display = "inline-block";
   }
 }
