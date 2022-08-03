@@ -19,6 +19,7 @@ aarticle {
    color:black;
    font-size:1rem;
    font-weight:600;
+   visibility: hidden;
 }
 
 @keyframes slideInFromLeft {
