@@ -64,18 +64,7 @@ aarticle {
   }
 }
 
-.artist {
-   color:black;
-   font-size:1rem;
-   font-weight:600;
-   display: none;
-}
-.artist-first {
-   color:black;
-   font-size:1rem;
-   font-weight:600;
-   display: inline-block;
-}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(200%);
@@ -483,4 +472,17 @@ nav {
   .image-size {
     width:20vw;
   }
+}
+
+.artist {
+   color:black;
+   font-size:1rem;
+   font-weight:600;
+   display: none;
+}
+.artist-first {
+   color:black;
+   font-size:1rem;
+   font-weight:600;
+   display: inline-block;
 }
