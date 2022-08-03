@@ -480,13 +480,13 @@ nav {
 }
 
 .artist {
-   color:black;
+   color:#F0F8FF;
    font-size:1rem;
    font-weight:600;
    display: none;
 }
 .artist-first {
-   color:black;
+   color:#F0F8FF;
    font-size:1rem;
    font-weight:600;
    display: inline-block;
