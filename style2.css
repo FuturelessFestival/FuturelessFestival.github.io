@@ -15,6 +15,12 @@ aarticle {
   padding-left: 144px;
 }
 
+.artist {
+   color:black;
+   font-size:1rem;
+   font-weight:600;
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(200%);
