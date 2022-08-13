@@ -258,9 +258,9 @@ function artist17() {
 }
 
 function artist18() {
-  var moreText = document.getElementById("artistText17");
-  var btn = document.getElementById("artistBtn17");
-  var dots = document.getElementById("artistAbout17");
+  var moreText = document.getElementById("artistText18");
+  var btn = document.getElementById("artistBtn18");
+  var dots = document.getElementById("artistAbout18");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline-block";
