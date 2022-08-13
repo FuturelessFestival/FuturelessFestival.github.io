@@ -272,3 +272,19 @@ function artist18() {
     moreText.style.display = "inline-block";
   }
 }
+
+function artist19() {
+  var moreText = document.getElementById("artistText19");
+  var btn = document.getElementById("artistBtn19");
+  var dots = document.getElementById("artistAbout19");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline-block";
+    btn.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btn.innerHTML = "Read less";
+    moreText.style.display = "inline-block";
+  }
+}
