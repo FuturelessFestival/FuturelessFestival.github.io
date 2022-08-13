@@ -256,3 +256,19 @@ function artist17() {
     moreText.style.display = "inline-block";
   }
 }
+
+function artist18() {
+  var moreText = document.getElementById("artistText17");
+  var btn = document.getElementById("artistBtn17");
+  var dots = document.getElementById("artistAbout17");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline-block";
+    btn.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btn.innerHTML = "Read less";
+    moreText.style.display = "inline-block";
+  }
+}
