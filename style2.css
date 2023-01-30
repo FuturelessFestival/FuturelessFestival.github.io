@@ -28,7 +28,7 @@ aarticle {
 }
 
 .gallery {
-  --s: 400px; /* control the size */
+  --s: 300px; /* control the size */
   --g: 30px;  /* control the gap */
   --f: 2.0;   /* control the scale factor */
   
